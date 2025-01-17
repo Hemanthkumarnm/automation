@@ -20,3 +20,6 @@ This file is for test case on github from local
        git clone "repo url"
        git config --global user.name username
        git conifg --global user.email hemanth@gmail.com
+ 1105  git fetch\n
+ 1106  git ls-remote origin\n
+ 1107  git pull origin main\n

@@ -15,3 +15,4 @@ This file is for test case on github from local
  1131  git commit -m "given a test case line"
  1132  git status 
  1133  git push -u origin main
+       git clone "repo url"

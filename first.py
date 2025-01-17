@@ -18,3 +18,5 @@ This file is for test case on github from local
  1155  git config --global --list
  1156  git config --global --edit
        git clone "repo url"
+       git config --global user.name username
+       git conifg --global user.email hemanth@gmail.com

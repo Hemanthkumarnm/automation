@@ -15,4 +15,6 @@ This file is for test case on github from local
  1131  git commit -m "given a test case line"
  1132  git status 
  1133  git push -u origin main
+ 1155  git config --global --list
+ 1156  git config --global --edit
        git clone "repo url"

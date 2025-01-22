@@ -1,5 +1,8 @@
 creating a infra required for k8s from terraform
-installing k8s on superset 
+maintain all the terraform and k8s code in sourcecode
+installing k8s on superset
+use helm chart for k8s deployments 
+automate the deployements from jenkins 
 ansible 
 grafana and prometheous
 

@@ -60,3 +60,5 @@ grafana and prometheous
         policy/v1 (for PodSecurityPolicies).
         rbac.authorization.k8s.io/v1 (for Role-Based Access Control like Role and ClusterRole).
         autoscaling/v1 (for Horizontal Pod Autoscalers). 
+
+still i am not getting the cloud platform

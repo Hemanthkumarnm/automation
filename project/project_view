@@ -5,4 +5,58 @@ use helm chart for k8s deployments
 automate the deployements from jenkins 
 ansible 
 grafana and prometheous
+15 days project
+#######################################################################
 
+1. Core API Group (apiVersion: v1)
+
+    Used for: Fundamental Kubernetes objects.
+    Examples:
+        Pod
+        Service
+        ConfigMap
+        PersistentVolume
+        Namespace
+
+2. Apps API Group (apiVersion: apps/<version>)
+
+    Used for: Workload-related objects.
+    Examples:
+        Deployment
+        StatefulSet
+        DaemonSet
+        ReplicaSet
+    Versions:
+        apps/v1 (latest and most commonly used).
+
+3. Batch API Group (apiVersion: batch/<version>)
+
+    Used for: Job and CronJob resources.
+    Examples:
+        Job
+        CronJob
+    Versions:
+        batch/v1 (latest for Job).
+        batch/v1 (for CronJob as of Kubernetes 1.21+; older versions used batch/v1beta1).
+
+4. Networking API Group (apiVersion: networking.k8s.io/<version>)
+
+    Used for: Networking-related objects.
+    Examples:
+        Ingress
+        NetworkPolicy
+    Versions:
+        networking.k8s.io/v1 (latest).
+
+5. Custom Resource Definitions (CRDs)
+
+    Used for: Custom resources created by extensions or operators.
+    Examples: Resources introduced by Istio, Prometheus, or other third-party tools.
+    Versions: Typically follow the format group/version (e.g., monitoring.coreos.com/v1 for Prometheus).
+
+6. Other API Groups
+
+    Examples:
+        policy/v1 (for PodSecurityPolicies).
+        rbac.authorization.k8s.io/v1 (for Role-Based Access Control like Role and ClusterRole).
+        autoscaling/v1 (for Horizontal Pod Autoscalers). 

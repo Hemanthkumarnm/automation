@@ -1,3 +1,4 @@
+#example for jenkins pipeline
 pipeline {
 	agent any  
 

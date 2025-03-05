@@ -22,4 +22,6 @@ This file is for test case on github from local
        git conifg --global user.email hemanth@gmail.com
  1105  git fetch\n
  1106  git ls-remote origin\n
- 1107  git pull origin main\n
+ 1107  git pull origin main\n 
+
+nice this first.py it help me to rember all the commands i have used 

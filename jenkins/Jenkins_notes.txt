@@ -1,3 +1,4 @@
+#ci/cd tool for devops
 Jenkins Pipeline 
     How to create a jenkins pipeline job ?
 	1. We can add pipeline configuration in 2 ways 
